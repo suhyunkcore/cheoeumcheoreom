@@ -88,7 +88,7 @@ button { font: inherit; }
 .answer-card {
   position: absolute;
   z-index: 4;
-  left: 37%;
+  left: 42%;
   top: 40%;
   width: 52%;
   min-height: 24%;
