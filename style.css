@@ -136,33 +136,3 @@ button { font: inherit; }
   .app { min-height: auto; height: min(calc(100dvh - 24px), 820px); width: auto; }
 }
 
-.game-info-btn {
-  position: absolute;
-  z-index: 8;
-
-  left: 64.9%;
-  top: 60.2%;
-  transform: translateX(-50%);
-
-  min-width: 108px;
-  height: 38px;
-  padding: 0 20px;
-
-  border: 0;
-  border-radius: 999px;
-
-  background: #a8def1;
-  color: #168b71;
-
-  font-family: "Pretendard", "Noto Sans KR", sans-serif;
-  font-size: clamp(15px, 4.2vw, 20px);
-  font-weight: 500;
-
-  box-shadow: 0 4px 7px rgba(0, 0, 0, 0.18);
-  cursor: pointer;
-  -webkit-tap-highlight-color: transparent;
-}
-
-.game-info-btn:active {
-  transform: translateX(-50%) scale(0.97);
-}
