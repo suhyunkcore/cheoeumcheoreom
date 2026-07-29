@@ -116,7 +116,7 @@ button { font: inherit; }
 }
 
 .friends-answer { color: #050505; }
-.couple-answer { font-size: clamp(17px, 5.25vw, 30px); line-height: 1.55; }
+.couple-answer { font-size: clamp(14px, 4vw, 22px); line-height: 1.5; }
 .couple-answer span { font-size: .8em; font-weight: 500; }
 
 .answer-card.pop { animation: cardPop .24s ease-out; }
