@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover, user-scalable=no" />
+  <meta name="theme-color" content="#d9fbf5" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <title>처음은 처음처럼</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <main class="app" aria-live="polite">
+    <section class="screen is-active" id="homeScreen" aria-label="메인 화면">
+      <img src="assets/home.png" alt="처음은 처음처럼 메인 화면" draggable="false" />
+      <button class="hotspot home-couple" type="button" aria-label="연인처럼 랜덤 질문 시작"></button>
+      <button class="hotspot home-friends" type="button" aria-label="친구처럼 랜덤 게임 시작"></button>
+    </section>
+
+    <section class="screen" id="friendsScreen" aria-label="친구처럼 화면">
+      <img src="assets/friends.png" alt="친구처럼 랜덤 게임 화면" draggable="false" />
+      <button class="hotspot back friends-back" type="button" aria-label="메인 화면으로 돌아가기"></button>
+      <button class="hotspot friends-random" type="button" aria-label="새 랜덤 게임 보기"></button>
+      <div class="answer-card friends-answer" id="friendsAnswer" aria-live="polite">손병호 게임</div>
+    </section>
+
+    <section class="screen" id="coupleScreen" aria-label="연인처럼 화면">
+      <img src="assets/couple.png" alt="연인처럼 랜덤 질문 화면" draggable="false" />
+      <button class="hotspot back couple-back" type="button" aria-label="메인 화면으로 돌아가기"></button>
+      <button class="hotspot couple-random" type="button" aria-label="새 랜덤 질문 보기"></button>
+      <div class="answer-card couple-answer" id="coupleAnswer" aria-live="polite">
+        매일 5시간 통화하는 연인<br /><span>VS</span><br />한 달에 5분 통화하는 연인
+      </div>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
