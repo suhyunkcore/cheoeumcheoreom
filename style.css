@@ -108,14 +108,7 @@ button { font: inherit; }
 }
 
 .answer-card::before {
-  content: "";
-  position: absolute;
-  inset: 12% 3% 5%;
-  z-index: -1;
-  border-radius: 20px;
-  background: rgba(232, 255, 255, .93);
-  backdrop-filter: blur(3px);
-  -webkit-backdrop-filter: blur(3px);
+  content: none;
 }
 
 .friends-answer { color: #050505; }
